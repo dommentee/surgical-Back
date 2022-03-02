@@ -25,7 +25,7 @@ dotenv.config();
 //middle ware
 // Read authentication cookies from requests
 app.use(cookieParser())
-let whitelist = ['http://localhost:3000', 'https://surgicalapp.herokuapp.com/']
+let whitelist = ['http://localhost:3000', 'https://surgicalapp.herokuapp.com']
 // CORS
 var corsOptions: CorsOptions = {
   credentials: true,

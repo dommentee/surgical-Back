@@ -34,7 +34,7 @@ CREATE TABLE users(
     UNIQUE(user_name)
 );
 
-INSERT INTO users (user_name,password) VALUES ('domCharm','test', 0);
+INSERT INTO users (user_name,password,auth_count) VALUES ('domCharm','test', 0);
 
 
 
